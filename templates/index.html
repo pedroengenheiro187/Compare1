@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparador de Imagens</title>
+</head>
+<body>
+    <h1>Upload de Imagens para Comparação</h1>
+    <form method="POST" action="/comparar" enctype="multipart/form-data">
+        <label>Imagem 1:</label>
+        <input type="file" name="image1" required><br><br>
+        <label>Imagem 2:</label>
+        <input type="file" name="image2" required><br><br>
+        <button type="submit">Comparar</button>
+    </form>
+</body>
+</html>
